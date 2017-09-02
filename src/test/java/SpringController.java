@@ -1,3 +1,4 @@
+import jdk.nashorn.internal.runtime.regexp.joni.constants.AsmConstants;
 import org.junit.Test;
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
@@ -21,5 +22,9 @@ public class SpringController {
     @Test
     public void testPrint(){
         System.out.print("hello");
+    }
+
+    public void testLocalCommit(){
+        System.out.print("this is test local commit!");
     }
 }
