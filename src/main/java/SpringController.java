@@ -19,4 +19,8 @@ public class SpringController {
         //通过SpringApplication的run()方法启动应用，无需额外的配置其他的文件
         SpringApplication.run(SpringController.class, args);
     }
+
+    public void test(){
+        System.out.print("two file commit");
+    }
 }
