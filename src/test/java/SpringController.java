@@ -1,3 +1,4 @@
+import org.junit.Test;
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
 import org.springframework.stereotype.*;
@@ -16,5 +17,9 @@ public class SpringController {
     public static void main(String[] args) throws Exception {
         //通过SpringApplication的run()方法启动应用，无需额外的配置其他的文件
         SpringApplication.run(SpringController.class, args);
+    }
+    @Test
+    public void testPrint(){
+        System.out.print("hello");
     }
 }
