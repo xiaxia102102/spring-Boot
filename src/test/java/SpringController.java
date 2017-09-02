@@ -26,7 +26,6 @@ public class SpringController {
 
     public void testLocalCommit(){
         System.out.print("this is test local commit!");
-        System.out.print("this is confilts!");
         System.out.print("add some commit twice");
     }
 }
